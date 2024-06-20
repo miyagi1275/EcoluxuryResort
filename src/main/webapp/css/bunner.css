@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#rightBunner{
+	display: flex; 
+
+  overflow: hidden;
+  position:  absolute;
+  
+   width: 100%;
+ height: auto;
+ max-width: 80px;
+ display: block;
+ position: absolute;
+ right: 0;
+}
+
+
+
+#selectImg{
+ width: 60%;
+ height: auto;
+ max-width: 100px;
+ display: block;
+ position: absolute;
+ right: 0;
+}
+
+
+#menuImg{
+ width: 60%;
+ height: auto;
+ max-width: 60px;
+ display: block;
+ position: absolute;
+ right: 100px;
+}
+
+

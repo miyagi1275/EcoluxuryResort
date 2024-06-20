@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+.topAnimeButton{
+
+animation:start 1s 0s ease forwards ,end 1s 9s ease forwards;
+}
+
+.topAnimeImg{
+	
+width:800px;
+height: auto;
+animation:start 1s 0s ease forwards ,end 1s 9s ease forwards;
+	
+}
+
+
+@keyframes start{0%{
+	   opacity: 0;
+	   	transform: translateX(-100px);
+	
+}100%{
+	   opacity: 1;
+	   	transform: translateX(0);
+
+}
+}
+
+@keyframes end{0%{
+	   opacity: 1;
+	   	transform: translateX(0);
+	
+}100%{
+	   opacity: 0;
+	   	transform: translateX(100px);
+
+}
+}

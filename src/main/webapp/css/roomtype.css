@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.reservationbutton{
+  
+   width: 100%;
+ height: auto;
+ max-width: 120px;
+ display: block;
+ position: absolute;
+ right: 20%;
+	
+}
+#spans{
+		display: block; 
+ position: static;
+}
+
+#roomtype{
+	display: flex; 
+ position: relative;
+}
+
+

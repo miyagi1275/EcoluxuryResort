@@ -1,0 +1,94 @@
+
+#headTitle{
+	font-size: 120%;
+}
+
+
+.bunnerdiv{
+ overflow: hidden;
+
+}
+
+#bunner1{
+float: left; 
+
+}
+
+#bunner2{
+ float: right;
+}
+
+#empty{
+clear: left;
+
+}
+
+.bunner{
+display: flex;
+	
+}
+.bunner .img{
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+.bunner .p{
+margin: 0 0 0 20px;
+padding: 0;
+}
+
+
+#menubutton {
+    cursor: pointer;     
+}
+
+.menuImg {
+    height: 70px;
+    right: 70px;
+
+
+}
+
+.menu.show {
+    display: block;
+    opacity: 1;
+}
+
+.menu {
+
+	 display: none; /* 初期状態では非表示 */
+    position: fixed; /* 画面の特定位置に固定 */
+    top: 60px; /* アイコンの下にメニューを表示 */
+    right: 350px; /* アイコンの右端に揃える */
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* ふわっと表示するアニメーション */
+    z-index: 1000; /* メニューが他のコンテンツの上に表示されるように */
+	
+	
+
+}
+
+
+.menu ul{
+
+display: block;
+color:	rgb(253,247,242);
+margin:  1px;
+width : 180px;
+background-color: black;
+
+}
+
+
+
+#line{
+	height: 8px;
+    border: 0;
+    box-shadow: inset 0 8px 8px -12px rgba(0,0,0,0.5);
+    clear: right;
+}
+
+

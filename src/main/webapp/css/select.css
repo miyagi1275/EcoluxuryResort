@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+table,th,td{
+font-family:游明朝;
+font-weight:100;
+font-size:18px;
+color:rgb(157,135,101)
+	
+}
+
+body{
+background-color:	rgb(253,247,242)
+}
+
+#selecttable,#selectform{
+font-family:游明朝;
+font-weight:100;
+font-size:18px;
+color:rgb(157,135,101)
+
+	
+}
